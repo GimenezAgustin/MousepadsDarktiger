@@ -1,0 +1,11 @@
+.contenedor1{
+	width: $ancho;
+	.centrado1{
+		text-align: center;
+		margin: auto;
+		justify-content: center;
+		h3{
+			margin-bottom: 1rem;
+		}
+	}
+}

@@ -1,0 +1,75 @@
+.contenedor1 { width: 100%; }
+
+.contenedor1 .centrado1 { text-align: center; margin: auto; justify-content: center; }
+
+.contenedor1 .centrado1 h3 { margin-bottom: 1rem; }
+
+body { background-color: linear-gradient(to bottom, black 40%, #590964b5 100%); }
+
+.cajaHijo { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
+
+.cajaHijo td { padding: 5px; }
+
+.caja { margin: 10px 1px 10px 1px; padding: 10px; height: 100%; }
+
+.caja .caja1__link { color: #a888bd; list-style: none; text-decoration: none; }
+
+.caja .caja1__link--especial { color: white; list-style: none; text-decoration: none; }
+
+.formulario { margin: 10px 5px 10px 5px; padding: 1em; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; }
+
+.formulario .formulario__link { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
+
+.formulario .formulario__link--especial { color: black; }
+
+.banner { background-image: url("../imagenesMousepads/salaGamer0.jpg"); min-height: 500px; background-size: cover; background-repeat: none; background-position: center; grid-area: fondoA; overflow: hidden; animation-name: fondoA; animation-iteration-count: 1; animation-timing-function: linear; animation-duration: 5s; animation-fill-mode: forwards; }
+
+.cajaHijo { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
+
+.cajaHijo td { padding: 5px; }
+
+miCol-1 { width: 8.33333%; }
+
+miCol-2 { width: 16.66667%; }
+
+miCol-3 { width: 25%; }
+
+miCol-4 { width: 33.33333%; }
+
+miCol-5 { width: 41.66667%; }
+
+miCol-6 { width: 50%; }
+
+miCol-7 { width: 58.33333%; }
+
+miCol-8 { width: 66.66667%; }
+
+miCol-9 { width: 75%; }
+
+miCol-10 { width: 83.33333%; }
+
+miCol-11 { width: 91.66667%; }
+
+miCol-12 { width: 100%; }
+
+#header .logo { width: 350px; margin-left: 30px; }
+
+#header .logo img { display: block; width: 40%; }
+
+.botonera { color: #590964b5; }
+
+.botonera ul { list-style: none; margin-right: 50px; }
+
+.botonera ul li { display: inline-block; }
+
+.botonera a { text-decoration: none; font-size: 1em; padding: 0 10px; }
+
+.fuente { color: white; font-size: 0.8em; }
+
+.fuente ul { text-align: center; line-height: 1.5; text-decoration: none; }
+
+.fuente ol { line-height: 1.5; }
+
+.footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; }
+
+.footer a { list-style: none; text-decoration: none; color: white; }

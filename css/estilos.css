@@ -1,10 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 .contenedor1 { width: 100%; }
 
 .contenedor1 .centrado1 { text-align: center; margin: auto; justify-content: center; }
 
 .contenedor1 .centrado1 h3 { margin-bottom: 1rem; }
 
-body { background-color: linear-gradient(to bottom, black 40%, #590964b5 100%); }
+* { margin: 0px; padding: 0px; }
+
+body { background: linear-gradient(to bottom, black 40%, #590964b5 100%); margin-right: 5%; margin-left: 5%; }
+
+header { background-color: black; min-height: 5em; display: flex; flex-direction: row; justify-content: space-between; align-self: stretch; align-items: center; }
+
+h1 { color: #590964b5; width: 100%; letter-spacing: 0.2em; }
+
+h4 { list-style: none; text-decoration: none; color: white; }
+
+@media only screen and (min-width: 768px) { body { background: linear-gradient(to bottom, black 40%, #590964b5 100%); color: black; } }
+
+@media only screen and (min-width: 1024px) { body { background: linear-gradient(to bottom, black 40%, #590964b5 100%); color: black; } }
+
+@media only screen and (min-width: 1200px) { body { background: linear-gradient(to bottom, black 40%, #590964b5 100%); color: black; } }
+
+@keyframes fondoA { 0% { transform: scale(1); }
+  100% { transform: scale(1.028); } }
+
+a { list-style: none; text-decoration: none; color: white; }
 
 .cajaHijo { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
 
@@ -22,7 +42,7 @@ body { background-color: linear-gradient(to bottom, black 40%, #590964b5 100%); 
 
 .formulario .formulario__link--especial { color: black; }
 
-.banner { background-image: url("../imagenesMousepads/salaGamer0.jpg"); min-height: 500px; background-size: cover; background-repeat: none; background-position: center; grid-area: fondoA; overflow: hidden; animation-name: fondoA; animation-iteration-count: 1; animation-timing-function: linear; animation-duration: 5s; animation-fill-mode: forwards; }
+.banner { background-image: url("../imagenesMousepads/salaGamer.jpg"); min-height: 500px; background-size: cover; background-repeat: none; background-position: center; grid-area: fondoA; overflow: hidden; animation-name: fondoA; animation-iteration-count: 1; animation-timing-function: linear; animation-duration: 5s; animation-fill-mode: forwards; }
 
 .cajaHijo { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
 
@@ -69,6 +89,44 @@ miCol-12 { width: 100%; }
 .fuente ul { text-align: center; line-height: 1.5; text-decoration: none; }
 
 .fuente ol { line-height: 1.5; }
+
+.video { justify-content: center; align-items: center; }
+
+.escala:hover { scale: 1.01; }
+
+.fuenteR { font-family: 'Raleway', sans-serif; font-weight: 400; }
+
+.fuenteM { font-family: 'Raleway', sans-serif; font-weight: 500; }
+
+.fuenteB { font-family: 'Raleway', sans-serif; font-weight: 700; }
+
+.anchoAlto { width: 100%; align-content: center; margin-right: 10%; }
+
+.miEstilo { font-size: 32px; }
+
+.anexo { margin-top: 2em; font-size: 2em; color: #590964b5; background-color: black; }
+
+.centrado { text-align: center; margin: auto; justify-content: center; }
+
+.fondoNegro { background-color: black; }
+
+.fondoContactos { color: white; }
+
+.orden { margin: 10px 5px 10px 5px; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: left; }
+
+.orden1 { margin: 10px 5px 10px 5px; padding: 1em; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; }
+
+.borde { border-bottom: 20px solid #000; }
+
+.bordeFino { border-bottom: 5px solid #000; }
+
+.textoBlanco { color: white; }
+
+.sinEstilo { list-style: none; text-decoration: none; }
+
+.icono { margin: 0.1%; float: right; right: 1%; box-sizing: border-box; position: fixed; z-index: 100; bottom: 1%; cursor: pointer; }
+
+.boton:hover { transform: rotate(15deg); }
 
 .footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; }
 

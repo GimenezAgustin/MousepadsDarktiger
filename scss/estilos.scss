@@ -24,6 +24,11 @@ h1{
 	width: 100%;
 	letter-spacing: 0.2em;
 }
+h4{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
 @media only screen and (min-width: 768px){
 	body{
 		background: linear-gradient(to bottom, black 40%, #590964b5 100%);
@@ -49,6 +54,11 @@ h1{
 	100%{
         transform: scale(1.028);
 	}
+}
+a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
 }
 .cajaHijo{
 	width: 100%;
@@ -238,6 +248,10 @@ h1{
 }
 .textoBlanco{
 	color: white;
+}
+.sinEstilo{
+	list-style: none;
+	text-decoration: none;
 }
 .icono{
 	margin: 0.1%;

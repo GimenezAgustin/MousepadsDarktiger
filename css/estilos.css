@@ -24,7 +24,13 @@ h4 { list-style: none; text-decoration: none; color: white; }
 @keyframes fondoA { 0% { transform: scale(1); }
   100% { transform: scale(1.028); } }
 
-a { list-style: none; text-decoration: none; color: white; }
+footer { text-decoration: none; list-style: none; color: white; }
+
+li { text-decoration: none; list-style: none; color: white; }
+
+ul { text-decoration: none; list-style: none; color: white; }
+
+a { text-decoration: none; list-style: none; color: white; }
 
 .cajaHijo { width: 100%; padding: 10px; display: flex; flex-wrap: wrap; align-content: center; box-sizing: border-box; justify-content: center; }
 
@@ -122,12 +128,14 @@ miCol-12 { width: 100%; }
 
 .textoBlanco { color: white; }
 
+.textoBlanco a { list-style: none; text-decoration: none; }
+
 .sinEstilo { list-style: none; text-decoration: none; }
 
 .icono { margin: 0.1%; float: right; right: 1%; box-sizing: border-box; position: fixed; z-index: 100; bottom: 1%; cursor: pointer; }
 
 .boton:hover { transform: rotate(15deg); }
 
-.footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; }
+.footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; list-style: none; }
 
 .footer a { list-style: none; text-decoration: none; color: white; }

@@ -55,9 +55,24 @@ h4{
         transform: scale(1.028);
 	}
 }
-a{
-	list-style: none;
+footer{
 	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+a{
+	text-decoration: none;
+	list-style: none;
 	color: white;
 }
 .cajaHijo{
@@ -248,6 +263,10 @@ a{
 }
 .textoBlanco{
 	color: white;
+	a{
+		list-style: none;
+		text-decoration: none;
+	}
 }
 .sinEstilo{
 	list-style: none;
@@ -274,6 +293,7 @@ a{
 	margin-bottom: 50px;
 	line-height: 50px;
 	justify-content: space-between;
+	list-style: none;
 	a{
 	list-style: none;
 	text-decoration: none;

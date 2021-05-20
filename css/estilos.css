@@ -136,6 +136,4 @@ miCol-12 { width: 100%; }
 
 .boton:hover { transform: rotate(15deg); }
 
-.footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; list-style: none; }
-
-.footer a { list-style: none; text-decoration: none; color: white; }
+.footer { background: #59096469; padding: 30px; display: flex; flex: 2 2 10%; margin-bottom: 50px; line-height: 50px; justify-content: space-between; text-decoration: none; list-style: none; }
